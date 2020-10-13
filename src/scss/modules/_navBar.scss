@@ -29,7 +29,7 @@ nav {
     .navCategories {
         padding: 10px 20px;
         &:hover {
-            background-color: #1663f1;
+            background-color: orange;
             border-radius: 42px;
         }
     }
@@ -53,11 +53,10 @@ nav {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
     z-index: -1;
     background-color: #f1f1f1;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
+    border-radius: 5px;
     min-width: 290px;
     .fas {
         margin-left: 25px;
@@ -76,9 +75,9 @@ nav {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
-    animation: pulse; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s; /* don't forget to set a duration! */
+    background-color: #ccc;
+    animation: pulse; 
+    animation-duration: 1s;
 }
 
 .dropdown:hover .dropdown-content {
@@ -93,7 +92,7 @@ nav {
 
 .dropdown_item {
     transform-origin: top center;
-    animation: rotateX 1000ms ease-in-out forwards;
+    animation: rotateX 1500ms ease-in-out forwards;
 }
 
 @keyframes rotateX {
