@@ -9697,7 +9697,7 @@ nav {
 }
 
 .navBar button {
-  padding: 8px 23px;
+  padding: 5px 20px;
   border: 2px solid black;
 }
 
@@ -9828,7 +9828,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
+  height: 100vh;
   border-radius: 0px;
   display: flex;
   justify-content: center;
@@ -9845,13 +9845,15 @@ nav {
 .jumbotron h2 {
   font-size: 25px;
   text-align: center;
-  margin-top: 30px;
+  margin: 30px;
+  white-space: pre-line;
+  letter-spacing: 1px;
 }
 
 .jumbotron .btn {
   border: 2px solid black;
-  padding: 8px 20px;
-  margin-top: 30px;
+  padding: 12px 25px;
+  margin-top: 40px;
 }
 
 .section-categories {
@@ -9861,11 +9863,15 @@ nav {
   flex-direction: column;
 }
 
+.section-categories .row {
+  margin-top: 30px;
+}
+
 .section-categories img {
   width: 380px;
   height: 250px;
   border-radius: 20px;
-  border: 2px solid black;
+  border: 3px solid black;
   margin: 30px;
   cursor: pointer;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.15);
@@ -9878,18 +9884,17 @@ nav {
 }
 
 .imageText {
-  position: absolute;
-  top: 16%;
-  border: 2px solid black;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 25px;
-  width: 80.6%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  margin: auto;
+  font-size: 28px;
   text-align: center;
-  color: white;
-  background-color: #17a2b8;
+  color: black;
+  text-transform: uppercase;
+}
+
+.titleCat {
+  margin-top: 30px;
+  margin-bottom: 65px;
+  text-decoration: underline;
 }
 
 footer {
@@ -9897,11 +9902,11 @@ footer {
   width: 100%;
   background-color: #272822;
   color: white;
-  margin-top: 50px;
+  margin-top: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 400px;
+  padding: 100px;
 }
 
 footer .row {
