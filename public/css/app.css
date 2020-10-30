@@ -9676,13 +9676,20 @@ nav {
 }
 
 .navBar .navTitle {
-  margin-top: 3px;
   font-size: 23px;
   margin-right: 40px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.navBar .navTitle:hover {
+  transform: scale(1.1);
 }
 
 .navBar .navCategories {
-  padding: 10px 20px;
+  padding: 8px 20px;
+  font-size: 20px;
 }
 
 .navBar .navCategories:hover {
@@ -9697,12 +9704,14 @@ nav {
 }
 
 .navBar button {
-  padding: 5px 20px;
+  padding: 8px 20px;
   border: 2px solid black;
+  transition: all 0.2s ease-in-out;
 }
 
 .navBar button:hover {
   border: 2px solid black;
+  transform: scale(1.1);
 }
 
 .navBar input {
@@ -9746,7 +9755,7 @@ nav {
 }
 
 .dropdown-content a:hover {
-  background-color: #ccc;
+  background-color: lightgray;
   animation: pulse;
   animation-duration: 1s;
 }
@@ -9864,6 +9873,19 @@ nav {
   margin-top: 200px;
 }
 
+.buttonHome {
+  border: 3px solid white !important;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  border: none;
+}
+
+.buttonHome:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: black;
+}
+
 .section-categories {
   display: flex;
   justify-content: center;
@@ -9871,8 +9893,13 @@ nav {
   flex-direction: column;
 }
 
+.section-categories .row {
+  margin: 0;
+}
+
 .section-categories .row .col-4 {
-  margin-top: 100px;
+  margin-top: 110px;
+  margin-bottom: -35px;
 }
 
 .section-categories img {
@@ -9882,13 +9909,12 @@ nav {
   border: 3px solid black;
   margin: 30px;
   cursor: pointer;
-  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .section-categories img:hover {
-  opacity: 80%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 5px #ccc;
 }
 
 .imageText {
@@ -9914,16 +9940,21 @@ footer {
   padding: 100px;
 }
 
-footer .row {
+footer .row .col-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 50%;
+  margin: 0;
 }
 
-footer .row h5 {
-  font-size: 28px;
+footer .row .col-4 h5 {
+  font-size: 31px;
   color: dodgerblue;
+  padding-bottom: 20px;
 }
 
-footer .row p {
+footer .row .col-4 p {
   font-size: 17px;
 }
 
@@ -9941,14 +9972,32 @@ footer .row p {
   margin: 0;
 }
 
+.linkSocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .linkSocial i {
-  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
   margin-top: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  transition: all 0.2s ease-in-out;
 }
 
 .linkSocial i:hover {
-  color: orange;
+  color: black;
+  background-color: orange;
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .linkQuick {
@@ -9956,14 +10005,26 @@ footer .row p {
   flex-direction: column;
 }
 
+.linkQuick i {
+  transition: all 0.2s ease-in-out;
+  margin-right: 5px;
+}
+
+.linkQuick i:hover {
+  transform: scale(1.1);
+}
+
 .linkQuick a {
   color: white;
   text-decoration: none;
   font-size: 17px;
+  transition: all 0.2s ease-in-out;
+  margin: 5px;
 }
 
 .linkQuick a:hover {
   color: orange;
+  transform: scaleX(1.1);
 }
 
 /*!

@@ -8,11 +8,16 @@ footer {
     justify-content: space-around;
     align-items: center;
     padding: 100px;
-    .row {
+    .row .col-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 50%;
+        margin: 0;
         h5 {
-            font-size: 28px;
+            font-size: 31px;
             color: dodgerblue;
+            padding-bottom: 20px;
         }
         p {
             font-size: 17px;
@@ -33,24 +38,52 @@ footer {
     }
 }
 
+.linkSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .linkSocial i {
-    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
     margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    transition: all 0.2s ease-in-out;
     &:hover {
-        color: orange;
+        color: black;
+        background-color: orange;
         cursor: pointer;
+        transform: scale(1.2);
     }
 }
 
 .linkQuick {
     display: flex;
     flex-direction: column;
+    i {
+        transition: all 0.2s ease-in-out;
+        margin-right: 5px;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
     a {
         color: white;
         text-decoration: none;
         font-size: 17px;
+        transition: all 0.2s ease-in-out;
+        margin: 5px;
         &:hover {
             color: orange;
+            transform: scaleX(1.1);
         }
     }
 }

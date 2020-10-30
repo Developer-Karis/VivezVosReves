@@ -35,3 +35,15 @@
     flex-direction: column;
     margin-top: 200px;
 }
+
+.buttonHome {
+    border: 3px solid white !important;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    border: none;
+    &:hover {
+        transform: scale(1.1);
+        background-color: white;
+        color: black;
+    }
+}
