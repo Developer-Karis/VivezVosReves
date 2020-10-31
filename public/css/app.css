@@ -9886,6 +9886,12 @@ nav {
   color: black;
 }
 
+body {
+  background-image: url("https://thumbs.gfycat.com/PertinentIgnorantKakapo-size_restricted.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .section-categories {
   display: flex;
   justify-content: center;
@@ -9906,7 +9912,7 @@ nav {
   width: 330px;
   height: 220px;
   border-radius: 20px;
-  border: 3px solid black;
+  border: 3px solid white;
   margin: 30px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -9921,7 +9927,7 @@ nav {
   margin: auto;
   font-size: 28px;
   text-align: center;
-  color: black;
+  color: white;
   text-transform: uppercase;
   margin-top: 20px;
 }
@@ -9962,7 +9968,7 @@ nav {
 }
 
 .cat7 {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid white;
   width: 70%;
 }
 
@@ -9977,24 +9983,33 @@ nav {
 }
 
 .card {
-  border: 3px solid black;
   border-radius: 20px;
-  background-color: lemonchiffon;
+  background-color: lightgrey;
+  width: max-content;
+  animation: colorchange 5s linear 1s infinite;
+  transition: 2s;
+}
+
+.card .card-title {
+  font-size: 23px !important;
 }
 
 .card .card-body {
+  font-size: 17px;
   margin-top: 5px;
-  padding-right: 50px;
 }
 
 .card .card-img {
-  border: 3px solid black !important;
-  height: 330px;
-  width: 380px;
-  border-radius: 0;
+  height: 340px;
   border: none;
   margin-top: 25px;
+  margin-left: 50px;
+  transform: none !important;
   transition: none;
+  box-shadow: none !important;
+  cursor: default;
+  border-radius: 20px;
+  border: 3px solid black;
 }
 
 .card .card-text-info {
@@ -10005,6 +10020,7 @@ nav {
   border: 2px solid black;
   transition: all 0.2s ease-in-out;
   outline: none;
+  font-size: 17px;
 }
 
 .card button:hover {
@@ -10018,7 +10034,150 @@ nav {
   border-top: 3px solid black;
 }
 
+.col-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@keyframes colorchange {
+  0% {
+    background: lightblue;
+  }
+  33% {
+    background: palegoldenrod;
+  }
+  66% {
+    background: lightgray;
+  }
+  100% {
+    background: lightcyan;
+  }
+}
+
+.tag1 {
+  border: 3px solid white;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  margin-left: 20px;
+  margin-top: -30px;
+  width: 9.5%;
+}
+
+.tag2 {
+  border: 3px solid white;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 9.5%;
+}
+
+.tag3 {
+  border: 3px solid white;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 110px;
+  width: 9.5%;
+}
+
+.tag4 {
+  border: 3px solid white;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 180px;
+  width: 9.5%;
+}
+
+.tag5 {
+  border: 3px solid white;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 250px;
+  width: 9.5%;
+}
+
+.tag6 {
+  border: 3px solid white;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 320px;
+  width: 9.5%;
+}
+
+.tag7 {
+  border: 3px solid white;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 390px;
+  width: 9.5%;
+}
+
+.tag8 {
+  border: 3px solid white;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  margin-left: 20px;
+  margin-top: 460px;
+  width: 9.5%;
+}
+
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+  text-decoration: none;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 footer {
+  position: relative;
+  z-index: 1028;
   bottom: 0;
   width: 100%;
   background-color: #272822;
@@ -10056,6 +10215,8 @@ footer .row .col-4 p {
   color: black;
   font-size: 20px;
   padding: 20px 20px;
+  position: relative;
+  z-index: 1028;
 }
 
 .myFooter p {

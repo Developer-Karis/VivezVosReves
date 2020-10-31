@@ -17,6 +17,10 @@
 
     <!-- Animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
 </head>
 
 <body>
@@ -58,53 +62,251 @@
     <!-- Accueil Catégories -->
     <section>
         <div class="section-categories">
-            <div class="row" style="padding-top: 100px;">
-                <div class="card mb-3 mt-5" style="width: max-content;">
-                    <div class="row no-gutters">
-                        <div class="col" style="padding: 0;">
-                            <img src="../../images/modeles/Ferrari-F8-Tributo.jpg" class="card-img">
+            <!-- Back to top button -->
+            <a id="button"></a>
+            <div class="all-links" style="padding-top: 150px;">
+                <a href="#row1" class="tag1 btn btn-danger btn-lg">Pista</a>
+                <a href="#row1" class="tag2 btn btn-danger btn-lg">Pista Spider</a>
+                <a href="#row2" class="tag3 btn btn-danger btn-lg">812</a>
+                <a href="#row2" class="tag4 btn btn-danger btn-lg">F8-Tributo</a>
+                <a href="#row3" class="tag5 btn btn-danger btn-lg">GTC4-Lusso T</a>
+                <a href="#row3" class="tag6 btn btn-danger btn-lg">GTC4-Lusso</a>
+                <a href="#row4" class="tag7 btn btn-danger btn-lg">Monza</a>
+                <a href="#row4" class="tag8 btn btn-danger btn-lg">Portofino</a>
+            </div>
+            <!-- Row 1 -->
+            <div class="row" style="padding-top: 40px;" id="row1">
+                <!-- Model 1 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/Ferrari-488-Pista.jpg" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Ferrari 488 Pista</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price : US$350,000
+                                        Engine : 3.9 liter twin turbo V8
+                                        Power : 710 bhp @ 7,500 rpm
+                                        Torque : 568 lb-ft @ 5500 rpm
+                                        0-60 mph : 2.85 sec
+                                        0-100 mph : 5.4 sec
+                                        Top Speed : 211 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col" style="padding: 0;">
-                            <div class="card-body">
-                                <h5 class="card-title mt-2">Ferrari F8 Tributo</h5>
-                                <p class="card-text-info text-danger">
-                                    Prix de base : 256 904,31 €
-                                    Moteur: V8 biturbo de 3,9 litres
-                                    Puissance: 710 ch à 8000 tr / min
-                                    Couple: 568 lb-pi à 3250 tr / min
-                                    0 à 100 km / h : 2,9 s
-                                    0 à 124 mph : 7,8 secondes
-                                    Vitesse maximale : 211 mph
-                                </p>
-                                <div class="sep w-100 pt-4">
-                                    <button class="btn btn-primary btn-lg mr-3">Acheter</button>
-                                    <button class="btn btn-primary btn-lg">Louer</button>
+                    </div>
+                </div>
+                <!-- Model 2 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/Ferrari-488-Pista-Spider.png" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Ferrari 488 Pista Spider</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price : US $350,000
+                                        Engine : 3.9 liter twin turbo V8
+                                        Power : 710 bhp @ 7,500 rpm
+                                        Torque : 568 lb-ft @ 5500 rpm
+                                        0-60 mph : 2.85 sec
+                                        0-100 mph : 5.4 sec
+                                        Top Speed : 211 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4">
-
+            <!-- Row 2 -->
+            <div class="row" style="padding-top: 70px;" id="row2">
+                <!-- Model 3 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/Ferrari-812.jpg" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Ferrari 812 Superfast</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price : US $340,712
+                                        Engine : 6.5 liter naturally V12
+                                        Power : 789 bhp @ 8,500 rpm
+                                        Torque : 530 lb-ft @ 7000 rpm
+                                        0-60 mph : 2.8 sec
+                                        0-100 mph : 5.8 sec
+                                        Top Speed : 211 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
-
-                </div>
-                <div class="col-4">
-
+                <!-- Model 4 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/Ferrari-F8-Tributo.jpg" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Ferrari F8 Tributo</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price : ~ US $300,000
+                                        Engine : 3.9 liter twin turbo V8
+                                        Power : 710 bhp @ 8,000 rpm
+                                        Torque : 568 lb-ft @ 3,250 rpm
+                                        0-60 mph : 2.9 sec
+                                        0-124 mph : 7.8 sec
+                                        Top Speed : 211 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4">
-
+            <!-- Row 3 -->
+            <div class="row" style="padding-top: 70px;" id="row3">
+                <!-- Model 5 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/Ferrari-GTC4-Lusso-T.jpg" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Ferrari GTC4 Lusso-T</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price : US $298,000
+                                        Engine : 3.9 liter twin turbo V8
+                                        Power : 591 hp @ 7,500 rpm
+                                        Torque : 561 lb-ft @3,000 rpm
+                                        0-60 mph : 3.5 sec
+                                        0-100 mph : N/A sec
+                                        Top Speed : 199 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
-
+                <!-- Model 6 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/Ferrari-GTC4-Lusso.jpg" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Ferrari GTC4 Lusso</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $298,000
+                                        Engine : 6.3 liter naturally V12
+                                        Power : 680 hp @ 8,000 rpm
+                                        Torque : 515 lb-ft @ 5,750 rpm
+                                        0-60 mph : 3.4 sec
+                                        0-100 mph : N/A sec
+                                        Top Speed : 208 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
-
+            </div>
+            <!-- Row 4 -->
+            <div class="row" style="padding-top: 70px;" id="row4">
+                <!-- Model 7 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/Ferrari-Monza.jpg" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Ferrari Monza</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price : > US $1,000,000
+                                        Engine : 6.5 liter naturally V12
+                                        Power : 810 bhp @ 8,500 rpm
+                                        Torque : 530 lb-ft @ 7000 rpm
+                                        0-60 mph : < 3 sec 
+                                        0-100 mph : < 8 sec 
+                                        Top Speed : 186 mph </p>
+                                            <div class="sep pt-4">
+                                                <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                                <button class="btn btn-primary btn-lg">Louer</button>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Model 8 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/Ferrari-Portofino.jpg" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Ferrari Portofino</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $215,000
+                                        Engine: 3.9 liter twin turbo V8
+                                        Power: 591 hp @ 7,500 rpm
+                                        Torque: 561 lb-ft @ 3,000 rpm
+                                        0-60 mph: 3.5 sec
+                                        0-124 mph: 8.7 sec
+                                        Top Speed: 199 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -112,7 +314,7 @@
 
     <!-- Footer -->
     <section>
-        <footer>
+        <footer class="myBigFooter">
             <div class="row">
                 <div class="col-4">
                     <h5>Vivez Vos Rêves</h5>
@@ -151,7 +353,7 @@
     </section>
 
     <!-- Mon Script -->
-    <script type="module" src="/src/js/app.js"></script>
+    <script type="module" src="../../js/app.js"></script>
 
     <!-- Script JS & Jquery -->
     <script src="../../../node_modules/jquery/dist/jquery.js"></script>
