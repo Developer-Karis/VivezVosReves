@@ -9990,6 +9990,11 @@ body {
   transition: 2s;
 }
 
+.card .row {
+  width: 710px;
+  height: 400px;
+}
+
 .card .card-title {
   font-size: 23px !important;
 }
@@ -10060,7 +10065,7 @@ body {
   z-index: 99;
   left: 0;
   margin-left: 20px;
-  margin-top: -30px;
+  margin-top: -60px;
   width: 9.5%;
 }
 
@@ -10070,7 +10075,7 @@ body {
   z-index: 99;
   left: 0;
   margin-left: 20px;
-  margin-top: 40px;
+  margin-top: 10px;
   width: 9.5%;
 }
 
@@ -10080,7 +10085,7 @@ body {
   z-index: 99;
   left: 0;
   margin-left: 20px;
-  margin-top: 110px;
+  margin-top: 80px;
   width: 9.5%;
 }
 
@@ -10090,7 +10095,7 @@ body {
   z-index: 99;
   left: 0;
   margin-left: 20px;
-  margin-top: 180px;
+  margin-top: 150px;
   width: 9.5%;
 }
 
@@ -10100,7 +10105,7 @@ body {
   z-index: 99;
   left: 0;
   margin-left: 20px;
-  margin-top: 250px;
+  margin-top: 220px;
   width: 9.5%;
 }
 
@@ -10110,7 +10115,7 @@ body {
   z-index: 99;
   left: 0;
   margin-left: 20px;
-  margin-top: 320px;
+  margin-top: 290px;
   width: 9.5%;
 }
 
@@ -10120,7 +10125,7 @@ body {
   z-index: 99;
   left: 0;
   margin-left: 20px;
-  margin-top: 390px;
+  margin-top: 360px;
   width: 9.5%;
 }
 
@@ -10130,7 +10135,7 @@ body {
   z-index: 99;
   left: 0;
   margin-left: 20px;
-  margin-top: 460px;
+  margin-top: 430px;
   width: 9.5%;
 }
 
@@ -10198,7 +10203,7 @@ footer .row .col-4 {
 }
 
 footer .row .col-4 h5 {
-  font-size: 28px;
+  font-size: 25px;
   color: dodgerblue;
   padding-bottom: 20px;
 }
@@ -10213,7 +10218,7 @@ footer .row .col-4 p {
   align-items: center;
   background-color: orange;
   color: black;
-  font-size: 20px;
+  font-size: 17px;
   padding: 20px 20px;
   position: relative;
   z-index: 1028;

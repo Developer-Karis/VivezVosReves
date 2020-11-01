@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivez Vos Rêves</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../../../public/css/app.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <!-- Icon Onglet -->
+    <link rel="shortcut icon" href="../../src/images/onglet/world.png" type="image/x-icon">
+
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="navBar">
+                <a href="../../../index.html" class="navTitle">
+                    <img src="../../images/onglet/world.png" alt="" style="height: 30px;" class="mr-2">
+                    Vivez Vos Rêves
+                </a>
+                <div class="dropdown">
+                    <a href="" class="navCategories">Catégories <i class="fas fa-angle-down"></i></a>
+                    <div class="dropdown-content dropdown_menu">
+                        <a href="../catVoiture.html" class="dropdown_item"><i class="fas fa-car"></i>Voitures</a>
+                        <a href="../catHotels.html" class="dropdown_item"><i class="fas fa-hotel"></i>Hôtels</a>
+                        <a href="../catVoyages.html" class="dropdown_item"><i class="fas fa-route"></i>Voyages</a>
+                        <a href="../catCabanes.html" class="dropdown_item"><i class="fas fa-tree"></i>Cabanes</a>
+                        <a href="../catVilla.html" class="dropdown_item"><i class="fas fa-home"></i>Maisons / Villas</a>
+                        <a href="../catBateau.html" class="dropdown_item"><i class="fas fa-ship"></i>Bateau /
+                            Croisière</a>
+                        <a href="../catSafari.html" class="dropdown_item"><i class="fas fa-compass"></i>Safari</a>
+                        <a href="../catActivites.html" class="dropdown_item"><i
+                                class="fas fa-snowboarding"></i>Activités</a>
+                        <a href="../catGastronomie.html" class="dropdown_item"><i
+                                class="fas fa-utensils"></i>Gastronomie</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navBar">
+                <form>
+                    <input type="text" class="form-control search_input" name="kw" placeholder="Rechercher..."
+                        maxlength="15">
+                    <button type="submit" class="buttonSearch"><i class="fa fa-search"></i></button>
+                </form>
+                <button class="btn btn-warning ml-5">S'inscrire</button>
+                <button class="btn btn-warning ml-3">Se connecter</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Accueil Catégories -->
+    <section>
+        <div class="section-categories">
+            <!-- Back to top button -->
+            <a id="button"></a>
+            <div class="all-links" style="padding-top: 150px;">
+                <a href="#row1" class="tag1 btn btn-danger btn-lg">Urus</a>
+                <a href="#row1" class="tag2 btn btn-danger btn-lg">Evo</a>
+                <a href="#row2" class="tag3 btn btn-danger btn-lg">Evo Spyder</a>
+                <a href="#row2" class="tag4 btn btn-danger btn-lg">Evo RWD</a>
+                <a href="#row3" class="tag5 btn btn-danger btn-lg">Aventador S</a>
+                <a href="#row3" class="tag6 btn btn-danger btn-lg">S Roadster</a>
+                <a href="#row4" class="tag7 btn btn-danger btn-lg">Aventador SVJ</a>
+                <a href="#row4" class="tag8 btn btn-danger btn-lg">SVJ Roadster</a>
+            </div>
+            <!-- Row 1 -->
+            <div class="row" style="padding-top: 40px;" id="row1">
+                <!-- Model 1 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/lamb/Lamborghini-Urus.png" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Urus</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $203,995
+                                        Engine: 4L V8
+                                        Power: 641 hp @ 6,000 rpm
+                                        Torque: 627 lb-ft @ 2,250 rpm
+                                        0-60 mph: 3.2 sec
+                                        0-100 mph: 7.6 sec
+                                        Top Speed: 190 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Model 2 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/lamb/Lamborghini-Huracán-Evo.png" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Huracán Evo</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $261,274
+                                        Engine: 5.2L Naturally V10
+                                        Power: 631 hp @ 8,000 rpm
+                                        Torque: 443 lb-ft @ 6,500 rpm
+                                        0-60 mph: 2.9 sec
+                                        0-124 mph: 9.0 sec
+                                        Top Speed: 202 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="row" style="padding-top: 70px;" id="row2">
+                <!-- Model 3 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/lamb/Lamborghini-Huracán-Evo-Spyder.png"
+                                    class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Huracán Evo Spyder</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $247,400
+                                        Engine: 5.2L Naturally V10
+                                        Power: 631 hp @ 8,000 rpm
+                                        Torque: 443 lb-ft @ 6,500 rpm
+                                        0-60 mph: 3.1 sec
+                                        0-124 mph: 9.3 sec
+                                        Top Speed: 202 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Model 4 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/lamb/Lamborghini-Huracan-Evo-RWD.jpg" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Huracán Evo RWD</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $179,000
+                                        Engine: 5.2L Naturally V10
+                                        Power: 610 hp @ 8,000 rpm
+                                        Torque: 413 lb-ft @ 6,500 rpm
+                                        0-60 mph: 2.9 sec
+                                        0-124 mph: 9.3 sec
+                                        Top Speed: 202 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row 3 -->
+            <div class="row" style="padding-top: 70px;" id="row3">
+                <!-- Model 5 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/lamb/Lamborghini-Aventador-S.png" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Aventador S</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $417,650
+                                        Engine: 6.5L Naturally V12
+                                        Power: 730 hp @ 8,400 rpm
+                                        Torque: 507 lb-ft @ 5,500 rpm
+                                        0-60 mph: 2.9 sec
+                                        0-124 mph: 8.8 sec
+                                        Top Speed: 217 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Model 6 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/lamb/Lamborghini-Aventador-LP740-4-S-Roadster.png"
+                                    class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Aventador S Roadster</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $467,442
+                                        Engine: 6.5L Naturally V12
+                                        Power: 730 hp @ 8,400 rpm
+                                        Torque: 507 lb-ft @ 5,500 rpm
+                                        0-60 mph: 3.0 sec
+                                        0-124 mph: 9.0 sec
+                                        Top Speed: 217 mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row 4 -->
+            <div class="row" style="padding-top: 70px;" id="row4">
+                <!-- Model 7 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/lamb/Lamborghini-Aventador-SVJ.png" class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Aventador SVJ</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $515,000
+                                        Engine: 6.5L Naturally V12
+                                        Power: 760 hp @ 8,500 rpm
+                                        Torque: 531 lb-ft @ 6,750 rpm
+                                        0-60 mph: 2.8 sec
+                                        0-124 mph: TBD
+                                        Top Speed: 217+ mph </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Model 8 -->
+                <div class="col-6">
+                    <div class="card mb-3 mt-5">
+                        <div class="row no-gutters">
+                            <div class="col" style="padding: 0;">
+                                <img src="../../images/modeles/lamb/Lamborghini-Aventador-SVJ-Roadster.png"
+                                    class="card-img">
+                            </div>
+                            <div class="col" style="padding: 0;">
+                                <div class="card-body">
+                                    <h5 class="card-title mt-2 text-danger">Aventador SVJ Roadster</h5>
+                                    <p class="card-text-info text-dark">
+                                        Base price: US $573,966
+                                        Engine: 6.5L Naturally V12
+                                        Power: 760 hp @ 8,500 rpm
+                                        Torque: 531 lb-ft @ 6,750 rpm
+                                        0-60 mph: 2.8 sec
+                                        0-124 mph: TBD
+                                        Top Speed: 217+ mph
+                                    </p>
+                                    <div class="sep pt-4">
+                                        <button class="btn btn-primary btn-lg mr-4">Acheter</button>
+                                        <button class="btn btn-primary btn-lg">Louer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+        <footer class="myBigFooter">
+            <div class="row">
+                <div class="col-4">
+                    <h5>Vivez Vos Rêves</h5>
+                    <p>Ce site a été conçu dans le but de réaliser
+                        les rêves les plus grandioses qui existent.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <h5>Liens Rapides</h5>
+                    <div class="linkQuick">
+                        <a href="../catVoiture.html"><i class="fas fa-angle-right"></i> Voitures</a>
+                        <a href="../catHotels.html"><i class="fas fa-angle-right"></i> Hôtels</a>
+                        <a href="../catVoyages.html"><i class="fas fa-angle-right"></i> Voyages</a>
+                        <a href="../catCabanes.html"><i class="fas fa-angle-right"></i> Cabanes</a>
+                        <a href="../catVilla.html"><i class="fas fa-angle-right"></i> Maisons / Villas</a>
+                        <a href="../catBateau.html"><i class="fas fa-angle-right"></i> Bateau / Croisière</a>
+                        <a href="../catSafari.html"><i class="fas fa-angle-right"></i> Safari</a>
+                        <a href="../catActivites.html"><i class="fas fa-angle-right"></i> Activités</a>
+                        <a href="../catGastronomie.html"><i class="fas fa-angle-right"></i> Gastronomie</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h5>Réseaux sociaux</h5>
+                    <div class="linkSocial">
+                        <i class="fab fa-facebook-f fa-2x"></i>
+                        <i class="fab fa-instagram fa-2x"></i>
+                        <i class="fab fa-twitter fa-2x"></i>
+                        <i class="fab fa-google-plus-g fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="myFooter">
+            <p>Copyright 2020 - All Rights Reserved - By Karis Papadopoulos</p>
+        </div>
+    </section>
+
+    <!-- Mon Script -->
+    <script type="module" src="../../js/app.js"></script>
+
+    <!-- Script JS & Jquery -->
+    <script src="../../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
