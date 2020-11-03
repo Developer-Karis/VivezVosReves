@@ -9982,6 +9982,38 @@ body {
   width: 70%;
 }
 
+.titleHotels {
+  color: lightcoral;
+}
+
+.titleVoyages {
+  color: lightseagreen;
+}
+
+.titleCabanes {
+  color: green;
+}
+
+.titleVilla {
+  color: orange;
+}
+
+.titleCroisiere {
+  color: #1663f1;
+}
+
+.titleSafari {
+  color: white;
+}
+
+.titleActivites {
+  color: coral;
+}
+
+.titleGastronomie {
+  color: deepskyblue;
+}
+
 .card {
   border-radius: 20px;
   background-color: lightgrey;
@@ -10185,7 +10217,7 @@ body {
   height: 700px;
   width: 1500px;
   margin-top: 140px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   border-radius: 50px;
   border-width: 1px;
   border-style: solid;
@@ -10242,7 +10274,7 @@ iframe {
   margin: auto;
 }
 
-div[class^=circle] {
+div[class^="circle"] {
   background: white;
   border-radius: 100%;
   display: inline-block;
@@ -10254,13 +10286,13 @@ div[class^=circle] {
   position: relative;
 }
 
-div[class^=circle]:after {
-  content: '';
+div[class^="circle"]:after {
+  content: "";
   position: absolute;
   display: block;
   height: 100%;
   left: 0;
-  background: #28A771;
+  background: #28a771;
 }
 
 div.circle25:after {
@@ -10277,6 +10309,197 @@ div.circle75:after {
 
 div.circle100:after {
   width: 100%;
+}
+
+.contentVoyages {
+  text-align: center;
+  height: 680px;
+  width: 1500px;
+  margin-top: 140px;
+  background-color: #f1f1f1;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border: 4px solid dodgerblue;
+}
+
+.contentVoyages .row {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contentVoyages .col-6 {
+  margin-top: 5px !important;
+}
+
+.contentVoyages img {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  border: none;
+  width: 600px;
+  height: 380px;
+  border: 3px solid black;
+  cursor: default;
+}
+
+.contentCabanes {
+  margin-bottom: 80px;
+  text-align: center;
+  height: max-content;
+  width: 1200px;
+  margin-top: 170px;
+  background-color: #f1f1f1;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border: 4px solid dodgerblue;
+}
+
+.contentCabanes .row {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contentCabanes .col-6 {
+  margin-top: 5px !important;
+}
+
+.contentCabanes img {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  border: none;
+  width: 480px;
+  height: 300px;
+  border: 3px solid black;
+  cursor: default;
+}
+
+.contentVilla {
+  margin-bottom: 80px;
+  text-align: center;
+  height: max-content;
+  width: 1200px;
+  margin-top: 170px;
+  background-color: #f1f1f1;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border: 4px solid dodgerblue;
+}
+
+.contentVilla .row {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contentVilla .col-6 {
+  margin-top: 5px !important;
+}
+
+.contentVilla img {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  border: none;
+  width: 480px;
+  height: 300px;
+  border: 3px solid black;
+  cursor: default;
+}
+
+.contentBateau {
+  margin-bottom: 80px;
+  text-align: center;
+  height: max-content;
+  width: 1200px;
+  margin-top: 180px;
+  background-color: #f1f1f1;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border: 4px solid dodgerblue;
+}
+
+.contentBateau .row {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contentBateau img {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  border: none;
+  width: 480px;
+  height: 300px;
+  border: 3px solid black;
+  cursor: default;
+}
+
+.contentActivites {
+  margin-bottom: 80px;
+  text-align: center;
+  height: max-content;
+  width: 1200px;
+  margin-top: 180px;
+  background-color: #f1f1f1;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border: 4px solid dodgerblue;
+}
+
+.contentActivites .row {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contentActivites img {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  border: none;
+  width: 480px;
+  height: 300px;
+  border: 3px solid black;
+  cursor: default;
+}
+
+.contentGastronomie {
+  margin-bottom: 80px;
+  text-align: center;
+  height: max-content;
+  width: 1200px;
+  margin-top: 180px;
+  background-color: #f1f1f1;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border: 4px solid dodgerblue;
+}
+
+.contentGastronomie .row {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contentGastronomie img {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  border: none;
+  width: 480px;
+  height: 300px;
+  border: 3px solid black;
+  cursor: default;
 }
 
 footer {
